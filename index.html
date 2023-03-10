@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/styles/page.css" />
+
+        <title>HayatFashion</title>
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <div class="header">
+            <div class="left"></div>
+
+            <div class="middle">
+                <img class="lofo" src="thumbnails/hayatArtboard 1 crop.png" />
+            </div>
+
+            <div class="right">
+                <!-- <a href="cart.html"
+                    ><img class="cart" src="thumbnails/shopping-bag.png"
+                /></a> -->
+
+                <div class="menu-toggle">
+                    <div class="hamburger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-bar">
+                <div class="left-bottom">HAYAT FASHION LTD.</div>
+
+                <div class="mid-bottom">USE CODE "HAYAT5" FOR FREE EU DELIVERY</div>
+
+                <div>PREORDERS WILL BE DISPATCHED WITHIN 2-3 WEEKS</div>
+
+                <div class="right-bottom">
+                    <a
+                        href="https://instagram.com/hayatfashion.crt?igshid=YmMyMTA2M2Y="
+                        target="_blank"
+                        ><img
+                            class="insta"
+                            src="thumbnails/icons8-instagram-50.png"
+                    /></a>
+                    <a
+                        href="https://www.tiktok.com/@hayatfashion.crt?_t=8aQ33K0tgUH&_r=1"
+                        target="_blank"
+                        ><img class="tiktok" src="thumbnails/ttArtboard 1.png"
+                    /></a>
+                </div>
+            </div>
+        </div>
+    </head>
+    <body>
+        <div class="app">
+            <aside class="sidebar">
+                <h3>Menu</h3>
+
+                <nav class="menu">
+                    <a href="#" class="menu-item is-active">Home</a>
+                    <a href="about.html" class="menu-item">About</a>
+                    <a href="contacts.html" class="menu-item">Contact</a>
+                    <!-- <a href="cart.html" class="menu-item">Cart</a> -->
+                </nav>
+            </aside>
+        </div>
+
+        <script>
+            const menu_toggle = document.querySelector(".menu-toggle");
+            const sidebar = document.querySelector(".sidebar");
+
+            menu_toggle.addEventListener("click", () => {
+                menu_toggle.classList.toggle("is-active");
+                sidebar.classList.toggle("is-active");
+            });
+        </script>
+
+        <div class="boxes">
+            <div class="firstbox">
+                <img class="account" src="thumbnails/CARGOSArtboard 1.png" />
+                <p class="item">HAYAT "LIFE" HOODIE</p>
+
+                <p class="price">£55</p>
+
+                <a href="button 1.html"><button class="button">PRE-ORDER</button></a>
+
+                
+            </div>
+
+            <div class="firstbox">
+                <img class="account" src="thumbnails/BLACKArtboard 1.png" />
+                <p class="item">HAYAT BEANIE</p>
+
+                <p class="price">£XX</p>
+
+                <button style="height: 57px; color: white; background-color: white;
+                border: none;">Buy Now</button>
+            </div>
+        </div>
+    </body>
+</html>

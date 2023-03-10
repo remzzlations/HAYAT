@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+            rel="stylesheet"
+        />
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+
+            .header {
+                display: flex;
+                flex-direction: row;
+                height: 100px;
+                justify-content: space-between;
+                background-color: white;
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+                align-items: center;
+                margin-bottom: 50px;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+            }
+
+            .left {
+                display: flex;
+
+                width: 80px;
+                align-items: center;
+                padding-left: 40px;
+                padding-right: -40px;
+            }
+
+            .middle {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-left: 80px;
+                margin-right: 40px;
+            }
+
+            .right {
+                display: flex;
+
+                width: 200px;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .lofo {
+                margin-top: 60px;
+                width: 100px;
+                cursor: pointer;
+                margin-bottom: 55px;
+                transition: 0.1s;
+            }
+
+            .lines {
+                width: 50px;
+                cursor: pointer;
+                transition: 0.1s;
+            }
+
+            .cart {
+                height: 50px;
+                margin-left: 115px;
+                margin-right: 20px;
+                cursor: pointer;
+                transition: 0.1s;
+            }
+
+            .lines:hover {
+                opacity: 0.7;
+            }
+
+            .lofo:hover {
+                opacity: 0.7;
+            }
+
+            .cart:hover {
+                opacity: 0.7;
+            }
+
+            .bottom-bar {
+                display: flex;
+                flex-direction: row;
+                height: 100px;
+                justify-content: space-between;
+                background-color: rgb(0, 0, 0);
+                box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+                align-items: center;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                color: white;
+            }
+
+            .right-bottom {
+                display: flex;
+
+                width: 200px;
+                align-items: center;
+                justify-content: space-between;
+                margin-left: 60px;
+            }
+
+            .middle-bottom {
+            }
+
+            .left-bottom {
+                margin-left: 40px;
+                display: flex;
+
+                width: 80px;
+                align-items: center;
+            }
+
+            .tiktok {
+                width: 45px;
+                margin-right: 20px;
+                margin-bottom: 5px;
+                cursor: pointer;
+            }
+
+            .insta {
+                margin-left: 80px;
+                cursor: pointer;
+            }
+
+            .tiktok:hover {
+                opacity: 0.7;
+            }
+
+            .insta:hover {
+                opacity: 0.7;
+            }
+        </style>
+
+        <title>HayatFashion Cart</title>
+
+        <link href="
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+            rel="stylesheet"
+        />
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="left"></div>
+
+            <div class="middle">
+                <a href="hayat test.html"
+                    ><img
+                        class="lofo"
+                        src="thumbnails/hayatArtboard 1 crop.png"
+                /></a>
+            </div>
+
+            <div class="right">
+                <img class="cart" src="thumbnails/shopping-bag.png" />
+            </div>
+
+            <div class="bottom-bar">
+                <div class="left-bottom">HAYAT FASHION LTD.</div>
+
+                <div class="right-bottom">
+                    <a
+                        href="https://instagram.com/hayatfashion.crt?igshid=YmMyMTA2M2Y="
+                        target="_blank"
+                        ><img
+                            class="insta"
+                            src="thumbnails/icons8-instagram-50.png"
+                    /></a>
+                    <a
+                        href="https://www.tiktok.com/@hayatfashion.crt?_t=8aQ33K0tgUH&_r=1"
+                        target="_blank"
+                        ><img class="tiktok" src="thumbnails/ttArtboard 1.png"
+                    /></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content" style="margin-top: 120px">
+            <h1>Cart</h1>
+            <p>Here are the items in your cart</p>
+
+            <div class="cartItems">
+                <!-- List your cart items here -->
+            </div>
+        </div>
+        <style>
+            .content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .content p {
+                text-align: center;
+            }
+        </style>
+    </body>
+</html>
